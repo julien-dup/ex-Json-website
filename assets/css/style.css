@@ -1,0 +1,106 @@
+*{
+    margin : 0;
+    padding : 0
+}
+body {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.boxcontent {
+    width: 400px;
+    height: 220px;
+    display:flex;
+    background-color: rgb(218, 218, 218);
+}
+.img{
+    width: 35%;
+    height: 100%;
+    background-size: 100%;
+}
+.column {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titre {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.texte{
+    width: 100%;
+    height: 70%;
+    font-size: 0.6em;
+}
+.rate{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.conteneurEtoile {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+.etoile1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background:url("../img/1étoile-removebg-preview.png") no-repeat;
+} 
+.etoile2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background:url("../img/2étoiles-removebg-preview.png") no-repeat;
+} 
+.etoile3{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background:url("../img/3étoiles-removebg-preview.png") no-repeat;
+    background-size: 100%;
+} 
+.etoile4{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background: url("../img/4étoiles-removebg-preview.png")no-repeat;
+    background-size: 100%;
+    align-items: center;
+} 
+.etoile5{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background:url("../img/5etoiles-removebg-preview.png")no-repeat;
+} 
+.noteInteger {
+    width: 40%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+.conteneurGris {
+    width: 90%;
+    height: 90%;
+    background: rgb(200, 199, 199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
